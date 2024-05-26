@@ -1,4 +1,17 @@
-body {
+.card {
+    display: inline-block;
+    border: 15px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 7px;
+    border-radius: 7px;
+    overflow: hidden;
+    max-width: 300px;
+    margin: 15px;
+    text-align: center;
+}
 
-    background-color: blue;
+.card img{
+    width: 100%;
+    height: auto;
+    text-align: center;
 }

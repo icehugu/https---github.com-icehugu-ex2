@@ -7,11 +7,11 @@ const port = 3000; // You can use any available port
 
 app.use(cors());
 // Define a route to fetch and return data from the API
-app.get('/users', async (req, res) => {
+app.get('/photos', async (req, res) => {
 
     try {
         // Fetch data from the API
-        const apiResponse = await fetch('https://jsonplaceholder.typicode.com/users');
+        const apiResponse = await fetch('https://jsonplaceholder.typicode.com/photos');
 
         // Check if the request was successful (status code 200)
         if (!apiResponse.ok) {
